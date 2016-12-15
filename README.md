@@ -61,7 +61,7 @@ Demo: https://trendmicro-frontend.github.io/react-breadcrumbs
 
 #### Breadcrumbs.Item
 
-<table>
+<table width="100%">
   <thead>
     <tr>
       <th align="left">Name</th>
