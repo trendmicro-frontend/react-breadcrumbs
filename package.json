@@ -52,7 +52,7 @@
     "react-addons-shallow-compare": "^0.14.0 || ^15.0.0"
   },
   "devDependencies": {
-    "@trendmicro/react-anchor": "^0.5.1",
+    "@trendmicro/react-anchor": "~0.5.1",
     "babel-cli": "~6.18.0",
     "babel-core": "~6.18.2",
     "babel-eslint": "~7.1.1",
