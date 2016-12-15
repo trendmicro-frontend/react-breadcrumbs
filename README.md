@@ -2,7 +2,7 @@
 
 [![NPM](https://nodei.co/npm/@trendmicro/react-breadcrumbs.png?downloads=true&stars=true)](https://nodei.co/npm/@trendmicro/react-breadcrumbs/)
 
-React Breadcrumb
+React Breadcrumbs
 
 Demo: https://trendmicro-frontend.github.io/react-breadcrumbs
 
