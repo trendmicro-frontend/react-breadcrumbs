@@ -26,13 +26,43 @@ Demo: https://trendmicro-frontend.github.io/react-breadcrumbs
 ## Usage
 
 ```js
-<Component
-    className="component"
->
-    GitHub
-</Component>
+import React, { Component } from 'react';
+import Anchor from '@trendmicro/react-anchor';
+import Breadcrumbs from '@trendmicro/react-breadcrumbs';
+
+class App extends Component {
+    render() {
+        return (
+            <Breadcrumbs>
+                <Breadcrumbs.Item>
+                    <Anchor href="#/devices">Devices</Anchor>
+                </Breadcrumbs.Item>
+                <Breadcrumbs.Item>
+                    <Anchor href="#/devices/firewall">Firewall</Anchor>
+                </Breadcrumbs.Item>
+                <Breadcrumbs.Item active>
+                    Policies
+                </Breadcrumbs.Item>
+            </Breadcrumbs>
+        );
+    }
+}
 ```
 
+You can add an icon on the right side, or add a line separator under the breadcrumbs.
+```js
+<Breadcrumbs showLineSeparator>
+    <Breadcrumbs.Item>
+        Devices
+    </Breadcrumbs.Item>
+    <Breadcrumbs.Item active>
+        Firewall
+    </Breadcrumbs.Item>
+    <Anchor className="pull-right" href="https://github.com/trendmicro-frontend/react-breadcrumbs">
+        <i className="fa fa-question-circle" style={{ fontSize: 20 }} />
+    </Anchor>
+</Breadcrumbs>
+```
 
 ## API
 
