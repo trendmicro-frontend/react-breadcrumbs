@@ -17,10 +17,10 @@ Demo: https://trendmicro-frontend.github.io/react-breadcrumbs
 2. At this point you can import `@trendmicro/react-buttons` and its styles in your application as follows:
 
   ```js
-  import Component from '@trendmicro/react-breadcrumbs';
+  import Breadcrumbs from '@trendmicro/react-breadcrumbs';
 
   // Be sure to include styles at some point, probably during your bootstraping
-  import '@trendmicro/react-buttons/dist/react-buttons.css';
+  import '@trendmicro/react-breadcrumbs/dist/react-breadcrumbs.css';
   ```
 
 ## Usage
