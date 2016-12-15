@@ -1,0 +1,21 @@
+{
+  "name": "@trendmicro/react-breadcrumbs",
+  "version": "0.5.0",
+  "description": "Trend Micro Components: React Breadcrumbs",
+  "authors": [
+    {
+      "name": "Cheton Wu",
+      "email": "cheton_wu@trend.com.tw",
+      "homepage": "https://github.com/cheton"
+    }
+  ],
+  "homepage": "https://github.com/trendmicro-frontend/react-breadcrumbs",
+  "snapshots": [],
+  "keywords": [
+    "react",
+    "react-breadcrumbs",
+    "breadcrumb",
+    "breadcrumbs"
+  ],
+  "license": "MIT"
+}
