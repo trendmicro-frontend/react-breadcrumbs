@@ -1,5 +1,6 @@
 import classNames from 'classnames';
-import React, { Component, cloneElement, PropTypes } from 'react';
+import PropTypes from 'prop-types';
+import React, { Component, cloneElement } from 'react';
 import shallowCompare from 'react-addons-shallow-compare';
 import styles from './index.styl';
 
