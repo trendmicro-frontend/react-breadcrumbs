@@ -25067,7 +25067,7 @@ module.exports = g;
 
 module.exports = {
 	"name": "@trendmicro/react-breadcrumbs",
-	"version": "0.5.2",
+	"version": "0.5.3",
 	"description": "Trend Micro Components: React Breadcrumbs",
 	"main": "lib/index.js",
 	"files": [
@@ -25116,8 +25116,7 @@ module.exports = {
 	},
 	"dependencies": {
 		"classnames": "^2.2.5",
-		"prop-types": "^15.5.8",
-		"react-addons-shallow-compare": "^0.14.0 || ^15.0.0"
+		"prop-types": "^15.5.8"
 	},
 	"devDependencies": {
 		"@trendmicro/react-anchor": "~0.5.4",
@@ -25189,10 +25188,6 @@ var _react = __webpack_require__("../node_modules/react/react.js");
 
 var _react2 = _interopRequireDefault(_react);
 
-var _reactAddonsShallowCompare = __webpack_require__("../node_modules/react-addons-shallow-compare/index.js");
-
-var _reactAddonsShallowCompare2 = _interopRequireDefault(_reactAddonsShallowCompare);
-
 var _index = __webpack_require__("../src/index.styl");
 
 var _index2 = _interopRequireDefault(_index);
@@ -25207,8 +25202,8 @@ function _possibleConstructorReturn(self, call) { if (!self) { throw new Referen
 
 function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
 
-var Breadcrumbs = (_temp = _class = function (_Component) {
-    _inherits(Breadcrumbs, _Component);
+var Breadcrumbs = (_temp = _class = function (_PureComponent) {
+    _inherits(Breadcrumbs, _PureComponent);
 
     function Breadcrumbs() {
         _classCallCheck(this, Breadcrumbs);
@@ -25217,11 +25212,6 @@ var Breadcrumbs = (_temp = _class = function (_Component) {
     }
 
     _createClass(Breadcrumbs, [{
-        key: 'shouldComponentUpdate',
-        value: function shouldComponentUpdate(nextProps, nextState) {
-            return (0, _reactAddonsShallowCompare2.default)(this, nextProps, nextState);
-        }
-    }, {
         key: 'render',
         value: function render() {
             var _props = this.props,
@@ -25258,7 +25248,7 @@ var Breadcrumbs = (_temp = _class = function (_Component) {
     }]);
 
     return Breadcrumbs;
-}(_react.Component), _class.propTypes = {
+}(_react.PureComponent), _class.propTypes = {
     showLineSeparator: _propTypes2.default.bool
 }, _class.defaultProps = {
     showLineSeparator: false
@@ -25295,10 +25285,6 @@ var _react = __webpack_require__("../node_modules/react/react.js");
 
 var _react2 = _interopRequireDefault(_react);
 
-var _reactAddonsShallowCompare = __webpack_require__("../node_modules/react-addons-shallow-compare/index.js");
-
-var _reactAddonsShallowCompare2 = _interopRequireDefault(_reactAddonsShallowCompare);
-
 var _index = __webpack_require__("../src/index.styl");
 
 var _index2 = _interopRequireDefault(_index);
@@ -25315,8 +25301,8 @@ function _possibleConstructorReturn(self, call) { if (!self) { throw new Referen
 
 function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
 
-var BreadcrumbsItem = (_temp = _class = function (_Component) {
-    _inherits(BreadcrumbsItem, _Component);
+var BreadcrumbsItem = (_temp = _class = function (_PureComponent) {
+    _inherits(BreadcrumbsItem, _PureComponent);
 
     function BreadcrumbsItem() {
         _classCallCheck(this, BreadcrumbsItem);
@@ -25325,11 +25311,6 @@ var BreadcrumbsItem = (_temp = _class = function (_Component) {
     }
 
     _createClass(BreadcrumbsItem, [{
-        key: 'shouldComponentUpdate',
-        value: function shouldComponentUpdate(nextProps, nextState) {
-            return (0, _reactAddonsShallowCompare2.default)(this, nextProps, nextState);
-        }
-    }, {
         key: 'render',
         value: function render() {
             var _props = this.props,
@@ -25344,7 +25325,7 @@ var BreadcrumbsItem = (_temp = _class = function (_Component) {
     }]);
 
     return BreadcrumbsItem;
-}(_react.Component), _class.propTypes = {
+}(_react.PureComponent), _class.propTypes = {
     active: _propTypes2.default.bool
 }, _class.defaultProps = {
     active: false
@@ -25615,4 +25596,4 @@ if(false) {
 /***/ })
 
 /******/ });
-//# sourceMappingURL=bundle.js.map?a1671953f0b6aabaa35e
+//# sourceMappingURL=bundle.js.map?ded80544df27ac40abbb

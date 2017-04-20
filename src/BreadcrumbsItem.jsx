@@ -1,10 +1,9 @@
 import classNames from 'classnames';
 import PropTypes from 'prop-types';
-import React, { Component } from 'react';
-import shallowCompare from 'react-addons-shallow-compare';
+import React, { PureComponent } from 'react';
 import styles from './index.styl';
 
-class BreadcrumbsItem extends Component {
+class BreadcrumbsItem extends PureComponent {
     static propTypes = {
         active: PropTypes.bool
     };
@@ -12,9 +11,6 @@ class BreadcrumbsItem extends Component {
         active: false
     };
 
-    shouldComponentUpdate(nextProps, nextState) {
-        return shallowCompare(this, nextProps, nextState);
-    }
     render() {
         const {
             className,

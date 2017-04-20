@@ -1,10 +1,9 @@
 import classNames from 'classnames';
 import PropTypes from 'prop-types';
-import React, { Component, cloneElement } from 'react';
-import shallowCompare from 'react-addons-shallow-compare';
+import React, { PureComponent, cloneElement } from 'react';
 import styles from './index.styl';
 
-class Breadcrumbs extends Component {
+class Breadcrumbs extends PureComponent {
     static propTypes = {
         showLineSeparator: PropTypes.bool
     };
@@ -12,9 +11,6 @@ class Breadcrumbs extends Component {
         showLineSeparator: false
     };
 
-    shouldComponentUpdate(nextProps, nextState) {
-        return shallowCompare(this, nextProps, nextState);
-    }
     render() {
         const {
             children,
