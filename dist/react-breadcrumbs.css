@@ -1,9 +1,20 @@
-/*! react-breadcrumbs v0.5.3 | (c) 2017 Trend Micro Inc. | MIT | https://github.com/trendmicro-frontend/react-breadcrumbs */
+/*! react-breadcrumbs v0.5.4 | (c) 2017 Trend Micro Inc. | MIT | https://github.com/trendmicro-frontend/react-breadcrumbs */
 .breadcrumbs---breadcrumbs---3kWUN {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  line-height: 20px;
   padding: 12px 0;
   margin-bottom: 0;
   list-style: none;
   background-color: transparent;
+}
+.breadcrumbs---breadcrumbs---3kWUN *,
+.breadcrumbs---breadcrumbs---3kWUN *:before,
+.breadcrumbs---breadcrumbs---3kWUN *:after {
+  -webkit-box-sizing: inherit;
+  -moz-box-sizing: inherit;
+  box-sizing: inherit;
 }
 .breadcrumbs---breadcrumbs---3kWUN.breadcrumbs---line-separator---3SKoW {
   margin-bottom: 16px;

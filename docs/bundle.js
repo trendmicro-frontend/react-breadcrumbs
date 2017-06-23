@@ -2202,7 +2202,7 @@ exports = module.exports = __webpack_require__("../node_modules/css-loader/lib/c
 
 
 // module
-exports.push([module.i, ".breadcrumbs---37XIE {\n  padding: 12px 0;\n  margin-bottom: 0;\n  list-style: none;\n  background-color: transparent;\n}\n.breadcrumbs---37XIE.line-separator---3S2Mk {\n  margin-bottom: 16px;\n  border-bottom: 1px #e6e6e6 solid;\n}\n.breadcrumbs---37XIE > li {\n  display: inline-block;\n  font-size: 16px;\n  line-height: 24px;\n  color: #888;\n}\n.breadcrumbs---37XIE > li.active---3WkHr {\n  color: #222;\n}\n.breadcrumbs---37XIE > li > a {\n  color: #888;\n  text-decoration: none;\n}\n.breadcrumbs---37XIE > li > a:hover,\n.breadcrumbs---37XIE > li > a:focus {\n  color: #0096cc;\n}\n.breadcrumbs---37XIE > li + li:before {\n  padding: 0 5px;\n  color: #888;\n  content: \"\\203A\";\n}\n", ""]);
+exports.push([module.i, ".breadcrumbs---37XIE {\n  -webkit-box-sizing: border-box;\n  -moz-box-sizing: border-box;\n  box-sizing: border-box;\n  line-height: 20px;\n  padding: 12px 0;\n  margin-bottom: 0;\n  list-style: none;\n  background-color: transparent;\n}\n.breadcrumbs---37XIE *,\n.breadcrumbs---37XIE *:before,\n.breadcrumbs---37XIE *:after {\n  -webkit-box-sizing: inherit;\n  -moz-box-sizing: inherit;\n  box-sizing: inherit;\n}\n.breadcrumbs---37XIE.line-separator---3S2Mk {\n  margin-bottom: 16px;\n  border-bottom: 1px #e6e6e6 solid;\n}\n.breadcrumbs---37XIE > li {\n  display: inline-block;\n  font-size: 16px;\n  line-height: 24px;\n  color: #888;\n}\n.breadcrumbs---37XIE > li.active---3WkHr {\n  color: #222;\n}\n.breadcrumbs---37XIE > li > a {\n  color: #888;\n  text-decoration: none;\n}\n.breadcrumbs---37XIE > li > a:hover,\n.breadcrumbs---37XIE > li > a:focus {\n  color: #0096cc;\n}\n.breadcrumbs---37XIE > li + li:before {\n  padding: 0 5px;\n  color: #888;\n  content: \"\\203A\";\n}\n", ""]);
 
 // exports
 exports.locals = {
@@ -25067,7 +25067,7 @@ module.exports = g;
 
 module.exports = {
 	"name": "@trendmicro/react-breadcrumbs",
-	"version": "0.5.3",
+	"version": "0.5.4",
 	"description": "Trend Micro Components: React Breadcrumbs",
 	"main": "lib/index.js",
 	"files": [
@@ -25084,8 +25084,8 @@ module.exports = {
 		"demo": "http-server -p 8000 docs/",
 		"lint": "eslint ./src",
 		"lint:fix": "eslint --fix ./src",
-		"test": "./babel-tap --coverage test/*.js",
-		"coveralls": "./babel-tap --coverage --coverage-report=text-lcov test/*.js | node_modules/.bin/coveralls",
+		"test": "tap test/*.js --node-arg=--require --node-arg=babel-register --node-arg=--require --node-arg=babel-polyfill",
+		"coveralls": "tap test/*.js --coverage --coverage-report=text-lcov --nyc-arg=--require --nyc-arg=babel-register --nyc-arg=--require --nyc-arg=babel-polyfill | coveralls",
 		"dev": "cd examples; webpack-dev-server --hot --inline --host 0.0.0.0 --port 8000 --content-base ../docs"
 	},
 	"repository": {
@@ -25596,4 +25596,4 @@ if(false) {
 /***/ })
 
 /******/ });
-//# sourceMappingURL=bundle.js.map?ded80544df27ac40abbb
+//# sourceMappingURL=bundle.js.map?1ca6c91e546edf185b37
