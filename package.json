@@ -1,6 +1,6 @@
 {
   "name": "@trendmicro/react-breadcrumbs",
-  "version": "0.5.4",
+  "version": "0.5.5",
   "description": "Trend Micro Components: React Breadcrumbs",
   "main": "lib/index.js",
   "files": [

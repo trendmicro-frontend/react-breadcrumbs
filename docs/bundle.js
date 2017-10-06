@@ -25067,7 +25067,7 @@ module.exports = g;
 
 module.exports = {
 	"name": "@trendmicro/react-breadcrumbs",
-	"version": "0.5.4",
+	"version": "0.5.5",
 	"description": "Trend Micro Components: React Breadcrumbs",
 	"main": "lib/index.js",
 	"files": [
@@ -25112,7 +25112,7 @@ module.exports = {
 		"breadcrumbs"
 	],
 	"peerDependencies": {
-		"react": "^0.14.0 || ^15.0.0"
+		"react": "^0.14.0 || >=15.0.0"
 	},
 	"dependencies": {
 		"classnames": "^2.2.5",
@@ -25145,8 +25145,8 @@ module.exports = {
 		"html-webpack-plugin": "~2.28.0",
 		"http-server": "~0.9.0",
 		"nib": "~1.1.2",
-		"react": "^0.14.0 || ^15.0.0",
-		"react-dom": "^0.14.0 || ^15.0.0",
+		"react": "^0.14.0 || >=15.0.0",
+		"react-dom": "^0.14.0 || >=15.0.0",
 		"style-loader": "~0.16.1",
 		"stylint": "~1.5.9",
 		"stylint-loader": "~1.0.0",
@@ -25596,4 +25596,4 @@ if(false) {
 /***/ })
 
 /******/ });
-//# sourceMappingURL=bundle.js.map?1ca6c91e546edf185b37
+//# sourceMappingURL=bundle.js.map?86dbfb7c63d5e384f37c
